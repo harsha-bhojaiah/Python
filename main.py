@@ -28,16 +28,6 @@ def check_win(player, computer):
       return "Scissors cuts the paper! You Win. Congratulations!"
 
 choices = get_choices()
-      
-      
-      
+result = check_win(choices["player"], choices["computer"])
+print(result)
 
-age = 17
-if age >= 18:
-  print("You are an adult.")
-elif age > 12:
-  print("You are a teenager.")
-elif age > 1:
-  print("You are a child.")
-else:
-  print("You are a baby.")
